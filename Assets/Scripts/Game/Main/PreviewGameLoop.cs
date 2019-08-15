@@ -232,7 +232,7 @@ public class PreviewGameLoop : Game.IGameLoop
         
         var playerEntity = m_Player.gameObject.GetComponent<GameObjectEntity>().Entity; 
         var charControl = m_GameWorld.GetEntityManager().GetComponentObject<PlayerCharacterControl>(playerEntity);
-        charControl.characterType = math.max(Game.characterType.IntValue,0);
+        charControl.characterType = math.max(Game.characterType.IntValue,1);
         m_Player.teamIndex = 0;
 
         m_previewGameMode = m_GameWorld.GetECSWorld().CreateManager<PreviewGameMode>(m_GameWorld, m_Player);
