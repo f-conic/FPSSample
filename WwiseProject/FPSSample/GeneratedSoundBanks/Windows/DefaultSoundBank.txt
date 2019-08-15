@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1031089514	Debug			\Default Work Unit\Debug	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	1030811090	Broadcast, Female Announcer, Introducing Song 1 SND2986 1	G:\UnityAudioDemoProject\FPSSample\WwiseProject\FPSSample\.cache\Windows\SFX\Broadcast, Female Announcer, Introducing Song 1 SND2986 1_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Broadcast, Female Announcer, Introducing Song 1 SND2986 1		913984
+
