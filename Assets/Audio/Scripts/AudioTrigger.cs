@@ -7,8 +7,9 @@ public class AudioTrigger : MonoBehaviour
 {
 	public Event SoundEvent;
 
-    void Start()
+    void Awake()
     {
-	    AkSoundEngine.PostEvent(SoundEvent.Id, gameObject);
+	    AkSoundEngine.RegisterGameObj(gameObject);
+		AudioSystem.Instance.PostEvent(SoundEvent.Name, gameObject);
     }
 }

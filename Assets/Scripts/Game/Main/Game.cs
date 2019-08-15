@@ -395,7 +395,14 @@ public class Game : MonoBehaviour
             GameObject go = (GameObject)GameObject.Instantiate(Resources.Load("Prefabs/ClientFrontend", typeof(GameObject)));
             UnityEngine.Object.DontDestroyOnLoad(go);
             clientFrontend = go.GetComponentInChildren<ClientFrontend>();
-        }
+
+            //var root = GameObject.Find("AudioManager");
+            //var component = root.AddComponent<WwiseWrapper>();
+            //component.Init();
+            //AudioSystem.Instance = component;
+
+            //AudioSystem.Instance.LoadBank("DefaultSoundBank.bnk");
+		}
 
         sqpClient = new SQP.SQPClient();
 

@@ -21,7 +21,7 @@
 			<ShortName>DefaultSoundBank</ShortName>
 			<Path>DefaultSoundBank.bnk</Path>
 			<IncludedEvents>
-				<Event Id="1031089514" Name="Debug" ObjectPath="\Events\Default Work Unit\Debug" DurationType="Infinite"/>
+				<Event Id="1031089514" Name="Debug" ObjectPath="\Events\Default Work Unit\Debug" MaxAttenuation="100.000000" DurationType="Infinite"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
 				<File Id="1030811090" Language="SFX">

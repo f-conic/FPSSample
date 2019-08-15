@@ -14,9 +14,7 @@ GameObject:
   - component: {fileID: 114156306511752048}
   - component: {fileID: 114164319220528714}
   - component: {fileID: 114253926017980336}
-  - component: {fileID: 9113744108710918087}
-  - component: {fileID: 5829440254676665038}
-  - component: {fileID: 694282265674081078}
+  - component: {fileID: 228280047587059028}
   m_Layer: 0
   m_Name: PlayerCamera
   m_TagString: MainCamera
@@ -229,7 +227,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cameraSettings: {fileID: 0}
---- !u!114 &9113744108710918087
+--- !u!114 &228280047587059028
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -238,46 +236,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 1367520595019782}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8c353965f9793d74bb0acc507b4e81de, type: 3}
+  m_Script: {fileID: 11500000, guid: 20f40f2538aa6224eb83a981e9bd74e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_listeners:
-    initialListenerList: []
-    useDefaultListeners: 1
-  isEnvironmentAware: 1
-  isStaticObject: 0
-  m_positionOffsetData:
-    KeepMe: 0
-    positionOffset: {x: 0, y: 0, z: 0}
-  m_posOffsetData: {fileID: 0}
-  listenerMask: 1
---- !u!114 &5829440254676665038
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1367520595019782}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 762e3bbcaa5244a468a0af49f607b5b2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isDefaultListener: 1
-  listenerId: 0
---- !u!54 &694282265674081078
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1367520595019782}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
