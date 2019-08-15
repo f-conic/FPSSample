@@ -27,3 +27,5 @@
 **/.cache/
 *.akd
 *.validationcache
+*.prof
+*.user
