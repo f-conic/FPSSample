@@ -22,3 +22,8 @@
 
 *.log
 *.pyc
+
+# wwise intermediate files
+**/.cache/
+*.akd
+*.validationcache
