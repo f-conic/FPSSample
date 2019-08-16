@@ -14,6 +14,55 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Folder Name="Characters" ID="{ED58BA2D-E139-46BB-8519-15D83EFADB70}" ShortID="304036991">
+					<ChildrenList>
+						<Folder Name="Terraformer" ID="{B4B90FC8-B4D9-4E6F-87A9-5ECC1E4F9B26}" ShortID="621050314">
+							<ChildrenList>
+								<Folder Name="Movement" ID="{92E53515-ACD9-4888-A508-A2C0F5D92F77}" ShortID="249277019">
+									<ChildrenList>
+										<Event Name="Char_Mov_Footstep_Left" ID="{1D8C1C81-D882-4B66-AC3D-24F95FCE987B}">
+											<ChildrenList>
+												<Action Name="" ID="{6EDC9DDA-2D0A-4E8D-81C0-E70A8E26105B}" ShortID="911673413">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Left" ID="{E07B14FA-6350-40C7-A6AA-BC75BDE78DE7}" WorkUnitID="{BA00719D-73C6-40D9-A47B-C295AB2C6D8F}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+										<Event Name="Char_Mov_Footstep_Right" ID="{C0633CFD-55CC-4FE5-8E6E-5AA51D1BCCF8}">
+											<ChildrenList>
+												<Action Name="" ID="{5A4B8A6B-ADB0-4D4A-8211-72219A2F1012}" ShortID="783735494">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="Right" ID="{57AF284D-8049-41A7-9DBD-4BB7CC2E7CAB}" WorkUnitID="{BA00719D-73C6-40D9-A47B-C295AB2C6D8F}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+									</ChildrenList>
+								</Folder>
+								<Folder Name="Weapons" ID="{0D864AC5-74D6-4EF1-912F-AEB465372907}" ShortID="800010756">
+									<ChildrenList>
+										<Event Name="Char_Terra_Wpn_Primary" ID="{599EFFB0-6004-4941-BCA5-0B9D2EAAA642}">
+											<ChildrenList>
+												<Action Name="" ID="{3D5EB30D-465F-4152-8BA2-E13898C4A6C6}" ShortID="365230888">
+													<ReferenceList>
+														<Reference Name="Target">
+															<ObjectRef Name="New Random Container" ID="{047A660D-AF3D-4AAC-9951-DC7914559973}" WorkUnitID="{BA00719D-73C6-40D9-A47B-C295AB2C6D8F}"/>
+														</Reference>
+													</ReferenceList>
+												</Action>
+											</ChildrenList>
+										</Event>
+									</ChildrenList>
+								</Folder>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

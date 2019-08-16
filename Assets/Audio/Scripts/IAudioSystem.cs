@@ -3,6 +3,8 @@
 public interface IAudioSystem
 {
 	void PostEvent(string eventName, GameObject gameObject);
+	void PostEvent(string eventName);
+
 	void LoadBank(string bankName);
 }
 

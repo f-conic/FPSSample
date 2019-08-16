@@ -36,7 +36,9 @@ public class TerraformerWeaponA : MonoBehaviour
     [NonSerialized] public TickEventHandler meleeImpactEvent = new TickEventHandler(0.5f);
     [NonSerialized] public SoundSystem.SoundHandle primaryFireSoundHandle;
 
-    public float[] ventRotationSpeed;
+    public AK.Wwise.Event primaryFire;
+
+	public float[] ventRotationSpeed;
     public int nextVentIndex;
 
     public Vector3 m_lastGrenadeFuelWorldPos;
@@ -76,7 +78,9 @@ public class UpdateTerraformerWeaponA : BaseComponentSystem<CharacterPresentatio
         var autoRifleInterpolatedState = EntityManager.GetComponentData<Ability_AutoRifle.InterpolatedState>(autoRifleAbility);
         if (weapon.primaryFireEvent.Update(time, autoRifleInterpolatedState.fireTick))
         {
-            if(weapon.primaryFireSound != null)
+	        AudioSystem.Instance.PostEvent(weapon.primaryFire.Name);
+
+			if (weapon.primaryFireSound != null)
             {
                 if (weapon.primaryFireSoundHandle.IsValid() && weapon.primaryFireSoundHandle.emitter.playing)
                     Game.SoundSystem.Stop(weapon.primaryFireSoundHandle, 0.05f);

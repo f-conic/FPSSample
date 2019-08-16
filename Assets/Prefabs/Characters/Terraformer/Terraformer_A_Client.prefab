@@ -158,6 +158,16 @@ MonoBehaviour:
   land: {fileID: 11400000, guid: fcbba6c766d60ea4381cc065b017c185, type: 2}
   doubleJump: {fileID: 11400000, guid: ba1e26683dba1eb40aad3de25776e5e2, type: 2}
   jumpStart: {fileID: 11400000, guid: 673003401743f23419cd3e0fd1a23060, type: 2}
+  leftFootstep:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: cf15ebbbb0c94d04ba41387db7efb448,
+      type: 2}
+  rightFootstep:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 5b71b798e61701040a768c91cdaa1caa,
+      type: 2}
   previousLocoState: 0
 --- !u!33 &1357519496502129026
 MeshFilter:
@@ -196,15 +206,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 11400042, guid: b7538c5d24affed48893bd3a90e153fb, type: 3}
       propertyPath: skeletonColor.r
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 11400042, guid: b7538c5d24affed48893bd3a90e153fb, type: 3}
       propertyPath: skeletonColor.g
-      value: 0.27939224
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 11400042, guid: b7538c5d24affed48893bd3a90e153fb, type: 3}
       propertyPath: skeletonColor.b
-      value: 1
+      value: 0.74465084
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: b7538c5d24affed48893bd3a90e153fb, type: 3}
       propertyPath: m_LocalRotation.y

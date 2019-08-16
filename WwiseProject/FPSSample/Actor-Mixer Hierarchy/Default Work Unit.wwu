@@ -32,6 +32,361 @@
 						<ActiveSource Name="Broadcast, Female Announcer, Introducing Song 1 SND2986 1" ID="{138916C2-78C6-4590-B864-97504F7CC004}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
+				<ActorMixer Name="Characters" ID="{49097DD2-A81B-428F-A1B9-AC2758D7BE6D}" ShortID="222724479">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AC27979C-7E58-491E-9623-740D11391859}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{86C5EF20-E84F-4A20-AB84-B4DF834CAEAC}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<ActorMixer Name="Terraformer" ID="{D474D17A-AE06-4586-B95C-2C11C759A26C}" ShortID="58137220">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AC27979C-7E58-491E-9623-740D11391859}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{86C5EF20-E84F-4A20-AB84-B4DF834CAEAC}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<ActorMixer Name="Movement" ID="{8D9FD087-8BB7-4756-A94B-54CE9C36B39B}" ShortID="952149077">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AC27979C-7E58-491E-9623-740D11391859}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{86C5EF20-E84F-4A20-AB84-B4DF834CAEAC}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<ActorMixer Name="Footsteps" ID="{67BD8699-36FC-420E-87A9-4570DC2A93AC}" ShortID="582734753">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AC27979C-7E58-491E-9623-740D11391859}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{86C5EF20-E84F-4A20-AB84-B4DF834CAEAC}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<RandomSequenceContainer Name="Left" ID="{E07B14FA-6350-40C7-A6AA-BC75BDE78DE7}" ShortID="672925745">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AC27979C-7E58-491E-9623-740D11391859}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{86C5EF20-E84F-4A20-AB84-B4DF834CAEAC}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="GirlFootstepsV2-01" ID="{63B04881-323B-431C-826D-C3963592AAF8}" ShortID="926667527">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AC27979C-7E58-491E-9623-740D11391859}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{86C5EF20-E84F-4A20-AB84-B4DF834CAEAC}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="GirlFootstepsV2-01" ID="{14CC289C-E530-4556-88AB-436EE071062D}" ShortID="462341512">
+																	<Language>SFX</Language>
+																	<AudioFile>GirlFootstepsV2-01.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="GirlFootstepsV2-01" ID="{14CC289C-E530-4556-88AB-436EE071062D}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="GirlFootstepsV2-02" ID="{BFCF798B-44AA-450C-A43B-0EF076D1F7DE}" ShortID="158251667">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AC27979C-7E58-491E-9623-740D11391859}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{86C5EF20-E84F-4A20-AB84-B4DF834CAEAC}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="GirlFootstepsV2-02" ID="{A764587C-E40C-495E-BA51-7D1EA27666F7}" ShortID="160638448">
+																	<Language>SFX</Language>
+																	<AudioFile>GirlFootstepsV2-02.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="GirlFootstepsV2-02" ID="{A764587C-E40C-495E-BA51-7D1EA27666F7}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="GirlFootstepsV2-03" ID="{3A5F25CC-3D13-452F-B524-94DAAEA8F772}" ShortID="323116671">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AC27979C-7E58-491E-9623-740D11391859}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{86C5EF20-E84F-4A20-AB84-B4DF834CAEAC}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="GirlFootstepsV2-03" ID="{862ECB18-E136-4934-AA2B-4F4295603FB7}" ShortID="742156172">
+																	<Language>SFX</Language>
+																	<AudioFile>GirlFootstepsV2-03.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="GirlFootstepsV2-03" ID="{862ECB18-E136-4934-AA2B-4F4295603FB7}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="GirlFootstepsV2-04" ID="{D91EE1A5-9F43-49F1-8BFF-F61E1C382D49}" ShortID="301616271">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AC27979C-7E58-491E-9623-740D11391859}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{86C5EF20-E84F-4A20-AB84-B4DF834CAEAC}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="GirlFootstepsV2-04" ID="{5C44A308-7BCE-442F-842A-9231B4264FE3}" ShortID="355223935">
+																	<Language>SFX</Language>
+																	<AudioFile>GirlFootstepsV2-04.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="GirlFootstepsV2-04" ID="{5C44A308-7BCE-442F-842A-9231B4264FE3}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="GirlFootstepsV2-05" ID="{F060D03B-0613-47DD-80AD-4D7A37694CB8}" ShortID="1017781602">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AC27979C-7E58-491E-9623-740D11391859}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{86C5EF20-E84F-4A20-AB84-B4DF834CAEAC}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="GirlFootstepsV2-05" ID="{CA201F8E-A5BE-456A-B24A-D0EC3CA7F2A9}" ShortID="450627516">
+																	<Language>SFX</Language>
+																	<AudioFile>GirlFootstepsV2-05.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="GirlFootstepsV2-05" ID="{CA201F8E-A5BE-456A-B24A-D0EC3CA7F2A9}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+												</RandomSequenceContainer>
+												<RandomSequenceContainer Name="Right" ID="{57AF284D-8049-41A7-9DBD-4BB7CC2E7CAB}" ShortID="384508049">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AC27979C-7E58-491E-9623-740D11391859}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{86C5EF20-E84F-4A20-AB84-B4DF834CAEAC}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="GirlFootstepsV2-06" ID="{793985E7-FBE4-4DAE-A8E2-99CE04E3D558}" ShortID="5761153">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AC27979C-7E58-491E-9623-740D11391859}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{86C5EF20-E84F-4A20-AB84-B4DF834CAEAC}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="GirlFootstepsV2-06" ID="{AB2728C2-C7D4-4EE8-98C7-CFE20A7CE812}" ShortID="826705973">
+																	<Language>SFX</Language>
+																	<AudioFile>GirlFootstepsV2-06.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="GirlFootstepsV2-06" ID="{AB2728C2-C7D4-4EE8-98C7-CFE20A7CE812}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="GirlFootstepsV2-07" ID="{C8A6E24C-E27A-4B32-8E95-09DC3850DA83}" ShortID="62050618">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AC27979C-7E58-491E-9623-740D11391859}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{86C5EF20-E84F-4A20-AB84-B4DF834CAEAC}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="GirlFootstepsV2-07" ID="{A3F25D30-6382-4366-995A-05DF2E11B6B2}" ShortID="544988981">
+																	<Language>SFX</Language>
+																	<AudioFile>GirlFootstepsV2-07.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="GirlFootstepsV2-07" ID="{A3F25D30-6382-4366-995A-05DF2E11B6B2}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="GirlFootstepsV2-08" ID="{453B534A-8727-4025-957C-E654EECE3BDE}" ShortID="742293225">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AC27979C-7E58-491E-9623-740D11391859}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{86C5EF20-E84F-4A20-AB84-B4DF834CAEAC}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="GirlFootstepsV2-08" ID="{50EDF9F0-8841-4E96-BED6-09EE29549FA3}" ShortID="259492540">
+																	<Language>SFX</Language>
+																	<AudioFile>GirlFootstepsV2-08.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="GirlFootstepsV2-08" ID="{50EDF9F0-8841-4E96-BED6-09EE29549FA3}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="GirlFootstepsV2-09" ID="{962F123E-FDB7-47CB-90E7-6CA32A51D4E5}" ShortID="1062031033">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AC27979C-7E58-491E-9623-740D11391859}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{86C5EF20-E84F-4A20-AB84-B4DF834CAEAC}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="GirlFootstepsV2-09" ID="{E949277E-79B5-4353-89AD-6474E092553D}" ShortID="612493850">
+																	<Language>SFX</Language>
+																	<AudioFile>GirlFootstepsV2-09.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="GirlFootstepsV2-09" ID="{E949277E-79B5-4353-89AD-6474E092553D}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="GirlFootstepsV2-10" ID="{DD57B0D9-EC9C-4933-ABCE-1D08D5ACDC67}" ShortID="792531829">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AC27979C-7E58-491E-9623-740D11391859}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{86C5EF20-E84F-4A20-AB84-B4DF834CAEAC}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="GirlFootstepsV2-10" ID="{763D850A-CC4F-4759-877D-B051E7876157}" ShortID="590634600">
+																	<Language>SFX</Language>
+																	<AudioFile>GirlFootstepsV2-10.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="GirlFootstepsV2-10" ID="{763D850A-CC4F-4759-877D-B051E7876157}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+												</RandomSequenceContainer>
+											</ChildrenList>
+										</ActorMixer>
+									</ChildrenList>
+								</ActorMixer>
+								<ActorMixer Name="Weapons" ID="{5BBFA5D7-F899-4215-8426-9A2A0A433BD8}" ShortID="412360091">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AC27979C-7E58-491E-9623-740D11391859}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{86C5EF20-E84F-4A20-AB84-B4DF834CAEAC}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<ActorMixer Name="Primary" ID="{DD1714C5-1D2C-4D0D-8309-9C8503FD9491}" ShortID="351688351">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AC27979C-7E58-491E-9623-740D11391859}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{86C5EF20-E84F-4A20-AB84-B4DF834CAEAC}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<RandomSequenceContainer Name="New Random Container" ID="{047A660D-AF3D-4AAC-9951-DC7914559973}" ShortID="144587752">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AC27979C-7E58-491E-9623-740D11391859}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{86C5EF20-E84F-4A20-AB84-B4DF834CAEAC}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="GirlWeaponFire01" ID="{B028C6DF-F324-47F9-805A-E92646EE0C80}" ShortID="512621630">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AC27979C-7E58-491E-9623-740D11391859}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{86C5EF20-E84F-4A20-AB84-B4DF834CAEAC}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="GirlWeaponFire01" ID="{C2B65A72-E955-41D2-B999-6E26D3C05436}" ShortID="1050090993">
+																	<Language>SFX</Language>
+																	<AudioFile>GirlWeaponFire01.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="GirlWeaponFire01" ID="{C2B65A72-E955-41D2-B999-6E26D3C05436}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="GirlWeaponFireAlt01" ID="{59905296-8C8C-4ECD-B4A0-8195664C8016}" ShortID="1000342747">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AC27979C-7E58-491E-9623-740D11391859}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{86C5EF20-E84F-4A20-AB84-B4DF834CAEAC}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="GirlWeaponFireAlt01" ID="{645B1B9F-BEBC-45D5-BAA8-66F6F6F01F3B}" ShortID="160015345">
+																	<Language>SFX</Language>
+																	<AudioFile>GirlWeaponFireAlt01.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="GirlWeaponFireAlt01" ID="{645B1B9F-BEBC-45D5-BAA8-66F6F6F01F3B}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="GirlWeaponFireAlt04" ID="{6A73F4E9-0017-4C2B-A304-AA93353D2ECF}" ShortID="1016749228">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{AC27979C-7E58-491E-9623-740D11391859}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{86C5EF20-E84F-4A20-AB84-B4DF834CAEAC}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="GirlWeaponFireAlt04" ID="{181D36C3-4218-4E7A-B82F-8B0DCCADA769}" ShortID="219147376">
+																	<Language>SFX</Language>
+																	<AudioFile>GirlWeaponFireAlt04.wav</AudioFile>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="GirlWeaponFireAlt04" ID="{181D36C3-4218-4E7A-B82F-8B0DCCADA769}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+												</RandomSequenceContainer>
+											</ChildrenList>
+										</ActorMixer>
+									</ChildrenList>
+								</ActorMixer>
+							</ChildrenList>
+						</ActorMixer>
+					</ChildrenList>
+				</ActorMixer>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

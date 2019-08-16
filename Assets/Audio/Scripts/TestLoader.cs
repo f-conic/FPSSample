@@ -7,11 +7,11 @@ public class TestLoader : MonoBehaviour
 {
 	private void Start()
 	{
-		var root = GameObject.Find("AudioManager");
-		var component = root.AddComponent<WwiseWrapper>();
-		component.Init();
-		AudioSystem.Instance = component;
+		//var root = GameObject.Find("AudioManager");
+		//var component = root.AddComponent<WwiseWrapper>();
+		//component.Init();
+		//AudioSystem.Instance = component;
 
-		AudioSystem.Instance.LoadBank("DefaultSoundBank.bnk");
+		//AudioSystem.Instance.LoadBank("DefaultSoundBank.bnk");
 	}
 }

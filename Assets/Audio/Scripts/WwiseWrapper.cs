@@ -6,16 +6,9 @@ public class WwiseWrapper : MonoBehaviour, IAudioSystem
 {
 	private bool initiated;
 
-	public void Init()
+	private void Awake()
 	{
-		var cam = Camera.main;
-
-		if (cam == null)
-		{
-			GameObject akListener = (GameObject)GameObject.Instantiate(Resources.Load("Prefabs/Listener", typeof(GameObject)));
-		}
-
-		var akInitalizer = gameObject.AddComponent<AkInitializer>();
+		AudioSystem.Instance = this;
 	}
 
 	private void OnDestroy()
@@ -28,6 +21,13 @@ public class WwiseWrapper : MonoBehaviour, IAudioSystem
 	    AkSoundEngine.RegisterGameObj(gameObject);
 	    AkSoundEngine.PostEvent(eventName, gameObject);
     }
+
+	public void PostEvent(string eventName)
+	{
+		AkSoundEngine.RegisterGameObj(gameObject);
+		AkSoundEngine.PostEvent(eventName, gameObject);
+		AkSoundEngine.UnregisterGameObj(gameObject);
+	}
 
 	public void LoadBank(string bankName)
 	{

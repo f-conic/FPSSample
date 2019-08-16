@@ -21,12 +21,67 @@
 			<ShortName>DefaultSoundBank</ShortName>
 			<Path>DefaultSoundBank.bnk</Path>
 			<IncludedEvents>
-				<Event Id="1031089514" Name="Debug" ObjectPath="\Events\Default Work Unit\Debug" MaxAttenuation="100.000000" DurationType="Infinite"/>
+				<Event Id="236581697" Name="Char_Mov_Footstep_Left" ObjectPath="\Events\Default Work Unit\Characters\Terraformer\Movement\Char_Mov_Footstep_Left" DurationType="OneShot" DurationMin="0.500000" DurationMax="0.507256"/>
+				<Event Id="99202100" Name="Char_Mov_Footstep_Right" ObjectPath="\Events\Default Work Unit\Characters\Terraformer\Movement\Char_Mov_Footstep_Right" DurationType="OneShot" DurationMin="0.507256" DurationMax="0.507256"/>
+				<Event Id="3923735113" Name="Char_Terra_Wpn_Primary" ObjectPath="\Events\Default Work Unit\Characters\Terraformer\Weapons\Char_Terra_Wpn_Primary" DurationType="OneShot" DurationMin="0.416984" DurationMax="0.983560"/>
+				<Event Id="1031089514" Name="Debug" ObjectPath="\Events\Default Work Unit\Debug" MaxAttenuation="16.000000" DurationType="Infinite"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
+				<File Id="160015345" Language="SFX">
+					<ShortName>GirlWeaponFireAlt01.wav</ShortName>
+					<Path>SFX\GirlWeaponFireAlt01_10C4C929.wem</Path>
+				</File>
+				<File Id="160638448" Language="SFX">
+					<ShortName>GirlFootstepsV2-02.wav</ShortName>
+					<Path>SFX\GirlFootstepsV2-02_10C4C929.wem</Path>
+				</File>
+				<File Id="219147376" Language="SFX">
+					<ShortName>GirlWeaponFireAlt04.wav</ShortName>
+					<Path>SFX\GirlWeaponFireAlt04_10C4C929.wem</Path>
+				</File>
+				<File Id="259492540" Language="SFX">
+					<ShortName>GirlFootstepsV2-08.wav</ShortName>
+					<Path>SFX\GirlFootstepsV2-08_10C4C929.wem</Path>
+				</File>
+				<File Id="355223935" Language="SFX">
+					<ShortName>GirlFootstepsV2-04.wav</ShortName>
+					<Path>SFX\GirlFootstepsV2-04_10C4C929.wem</Path>
+				</File>
+				<File Id="450627516" Language="SFX">
+					<ShortName>GirlFootstepsV2-05.wav</ShortName>
+					<Path>SFX\GirlFootstepsV2-05_10C4C929.wem</Path>
+				</File>
+				<File Id="462341512" Language="SFX">
+					<ShortName>GirlFootstepsV2-01.wav</ShortName>
+					<Path>SFX\GirlFootstepsV2-01_10C4C929.wem</Path>
+				</File>
+				<File Id="544988981" Language="SFX">
+					<ShortName>GirlFootstepsV2-07.wav</ShortName>
+					<Path>SFX\GirlFootstepsV2-07_10C4C929.wem</Path>
+				</File>
+				<File Id="590634600" Language="SFX">
+					<ShortName>GirlFootstepsV2-10.wav</ShortName>
+					<Path>SFX\GirlFootstepsV2-10_10C4C929.wem</Path>
+				</File>
+				<File Id="612493850" Language="SFX">
+					<ShortName>GirlFootstepsV2-09.wav</ShortName>
+					<Path>SFX\GirlFootstepsV2-09_10C4C929.wem</Path>
+				</File>
+				<File Id="742156172" Language="SFX">
+					<ShortName>GirlFootstepsV2-03.wav</ShortName>
+					<Path>SFX\GirlFootstepsV2-03_10C4C929.wem</Path>
+				</File>
+				<File Id="826705973" Language="SFX">
+					<ShortName>GirlFootstepsV2-06.wav</ShortName>
+					<Path>SFX\GirlFootstepsV2-06_10C4C929.wem</Path>
+				</File>
 				<File Id="1030811090" Language="SFX">
 					<ShortName>Broadcast, Female Announcer, Introducing Song 1 SND2986 1.wav</ShortName>
 					<Path>SFX\Broadcast, Female Announcer, Introducing Song 1 SND2986 1_D79FB2B7.wem</Path>
+				</File>
+				<File Id="1050090993" Language="SFX">
+					<ShortName>GirlWeaponFire01.wav</ShortName>
+					<Path>SFX\GirlWeaponFire01_10C4C929.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>

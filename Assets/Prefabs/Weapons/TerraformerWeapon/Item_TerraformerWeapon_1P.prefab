@@ -97,6 +97,11 @@ MonoBehaviour:
   secondaryMuzzleFlash: {fileID: 3980447712948469500}
   meleeImpactSound: {fileID: 11400000, guid: c403338d33b3ddb44bf7341d05e7d607, type: 2}
   meleeImpactEffect: {fileID: 0}
+  primaryFire:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 8150ae6760784574790aba789c5b03be,
+      type: 2}
   ventRotationSpeed:
   - 0
   - 0
@@ -187,7 +192,7 @@ Transform:
 --- !u!199 &4302442505872242036
 ParticleSystemRenderer:
   serializedVersion: 6
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -4973,7 +4978,7 @@ Transform:
 --- !u!199 &1999115351268857355
 ParticleSystemRenderer:
   serializedVersion: 6
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -10003,11 +10008,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: 9a473cf544f5f0842badbe82cb09097d, type: 3}
       propertyPath: skeletonColor.b
-      value: 0.49299288
+      value: 0.7724285
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: 9a473cf544f5f0842badbe82cb09097d, type: 3}
       propertyPath: skeletonColor.g
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: 9a473cf544f5f0842badbe82cb09097d, type: 3}
       propertyPath: bones.Array.data[0]
@@ -10105,6 +10110,10 @@ PrefabInstance:
       propertyPath: bones.Array.data[23]
       value: 
       objectReference: {fileID: 2623461487636665554}
+    - target: {fileID: 11400000, guid: 9a473cf544f5f0842badbe82cb09097d, type: 3}
+      propertyPath: skeletonColor.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 400062, guid: 9a473cf544f5f0842badbe82cb09097d, type: 3}
       propertyPath: m_LocalRotation.y
       value: 0

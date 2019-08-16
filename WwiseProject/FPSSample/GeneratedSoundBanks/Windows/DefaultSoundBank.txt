@@ -1,6 +1,22 @@
 Event	ID	Name			Wwise Object Path	Notes
+	99202100	Char_Mov_Footstep_Right			\Default Work Unit\Characters\Terraformer\Movement\Char_Mov_Footstep_Right	
+	236581697	Char_Mov_Footstep_Left			\Default Work Unit\Characters\Terraformer\Movement\Char_Mov_Footstep_Left	
 	1031089514	Debug			\Default Work Unit\Debug	
+	3923735113	Char_Terra_Wpn_Primary			\Default Work Unit\Characters\Terraformer\Weapons\Char_Terra_Wpn_Primary	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	160015345	GirlWeaponFireAlt01	G:\UnityAudioDemoProject\FPSSample\WwiseProject\FPSSample\.cache\Windows\SFX\GirlWeaponFireAlt01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Characters\Terraformer\Weapons\Primary\New Random Container\GirlWeaponFireAlt01		167948
+	160638448	GirlFootstepsV2-02	G:\UnityAudioDemoProject\FPSSample\WwiseProject\FPSSample\.cache\Windows\SFX\GirlFootstepsV2-02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Characters\Terraformer\Movement\Footsteps\Left\GirlFootstepsV2-02		89544
+	219147376	GirlWeaponFireAlt04	G:\UnityAudioDemoProject\FPSSample\WwiseProject\FPSSample\.cache\Windows\SFX\GirlWeaponFireAlt04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Characters\Terraformer\Weapons\Primary\New Random Container\GirlWeaponFireAlt04		73620
+	259492540	GirlFootstepsV2-08	G:\UnityAudioDemoProject\FPSSample\WwiseProject\FPSSample\.cache\Windows\SFX\GirlFootstepsV2-08_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Characters\Terraformer\Movement\Footsteps\Right\GirlFootstepsV2-08		89544
+	355223935	GirlFootstepsV2-04	G:\UnityAudioDemoProject\FPSSample\WwiseProject\FPSSample\.cache\Windows\SFX\GirlFootstepsV2-04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Characters\Terraformer\Movement\Footsteps\Left\GirlFootstepsV2-04		89544
+	450627516	GirlFootstepsV2-05	G:\UnityAudioDemoProject\FPSSample\WwiseProject\FPSSample\.cache\Windows\SFX\GirlFootstepsV2-05_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Characters\Terraformer\Movement\Footsteps\Left\GirlFootstepsV2-05		89544
+	462341512	GirlFootstepsV2-01	G:\UnityAudioDemoProject\FPSSample\WwiseProject\FPSSample\.cache\Windows\SFX\GirlFootstepsV2-01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Characters\Terraformer\Movement\Footsteps\Left\GirlFootstepsV2-01		88264
+	544988981	GirlFootstepsV2-07	G:\UnityAudioDemoProject\FPSSample\WwiseProject\FPSSample\.cache\Windows\SFX\GirlFootstepsV2-07_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Characters\Terraformer\Movement\Footsteps\Right\GirlFootstepsV2-07		89544
+	590634600	GirlFootstepsV2-10	G:\UnityAudioDemoProject\FPSSample\WwiseProject\FPSSample\.cache\Windows\SFX\GirlFootstepsV2-10_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Characters\Terraformer\Movement\Footsteps\Right\GirlFootstepsV2-10		89544
+	612493850	GirlFootstepsV2-09	G:\UnityAudioDemoProject\FPSSample\WwiseProject\FPSSample\.cache\Windows\SFX\GirlFootstepsV2-09_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Characters\Terraformer\Movement\Footsteps\Right\GirlFootstepsV2-09		89544
+	742156172	GirlFootstepsV2-03	G:\UnityAudioDemoProject\FPSSample\WwiseProject\FPSSample\.cache\Windows\SFX\GirlFootstepsV2-03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Characters\Terraformer\Movement\Footsteps\Left\GirlFootstepsV2-03		89544
+	826705973	GirlFootstepsV2-06	G:\UnityAudioDemoProject\FPSSample\WwiseProject\FPSSample\.cache\Windows\SFX\GirlFootstepsV2-06_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Characters\Terraformer\Movement\Footsteps\Right\GirlFootstepsV2-06		89544
 	1030811090	Broadcast, Female Announcer, Introducing Song 1 SND2986 1	G:\UnityAudioDemoProject\FPSSample\WwiseProject\FPSSample\.cache\Windows\SFX\Broadcast, Female Announcer, Introducing Song 1 SND2986 1_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Broadcast, Female Announcer, Introducing Song 1 SND2986 1		913984
+	1050090993	GirlWeaponFire01	G:\UnityAudioDemoProject\FPSSample\WwiseProject\FPSSample\.cache\Windows\SFX\GirlWeaponFire01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Characters\Terraformer\Weapons\Primary\New Random Container\GirlWeaponFire01		173564
 

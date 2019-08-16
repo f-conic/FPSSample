@@ -13,6 +13,9 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID CHAR_MOV_FOOTSTEP_LEFT = 236581697U;
+        static const AkUniqueID CHAR_MOV_FOOTSTEP_RIGHT = 99202100U;
+        static const AkUniqueID CHAR_TERRA_WPN_PRIMARY = 3923735113U;
         static const AkUniqueID DEBUG = 1031089514U;
     } // namespace EVENTS
 

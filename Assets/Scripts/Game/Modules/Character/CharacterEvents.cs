@@ -18,7 +18,10 @@ public class CharacterEvents : MonoBehaviour
 	public SoundDef doubleJump;
 	[FormerlySerializedAs("jumpStartSound")]
 	public SoundDef jumpStart;
-	
+
+	public AK.Wwise.Event leftFootstep;
+	public AK.Wwise.Event rightFootstep;
+
 	public CharacterPredictedData.LocoState previousLocoState;
 	
 	[NonSerialized] public bool active = false;
@@ -117,6 +120,8 @@ public class HandleCharacterEvents : ComponentSystem
 				if (Time.time > charEvents.lastFootstepTime + charEvents.minFootstepInterval)
 				{
 					var sound = charEvents.nextFootLeft ? charEvents.footstepLeft : charEvents.footstepRight;
+					var footstepSound = charEvents.nextFootLeft ? charEvents.leftFootstep : charEvents.rightFootstep;
+					AudioSystem.Instance.PostEvent(footstepSound.Name);
 					Game.SoundSystem.Play(sound, charEvents.transform);
 					charEvents.nextFootLeft = !charEvents.nextFootLeft;
 					charEvents.lastFootstepTime = Time.time;

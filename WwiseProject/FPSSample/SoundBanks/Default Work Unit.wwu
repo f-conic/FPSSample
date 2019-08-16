@@ -7,6 +7,8 @@
 					<ObjectInclusionList>
 						<ObjectRef Name="Debug" ID="{30B9E730-EE38-40B7-B29B-66F78DCB7079}" WorkUnitID="{33379CD4-6281-43CB-8470-4C536BCB1C3D}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Default Work Unit" ID="{BA00719D-73C6-40D9-A47B-C295AB2C6D8F}" WorkUnitID="{BA00719D-73C6-40D9-A47B-C295AB2C6D8F}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Char_Mov_Footstep_Left" ID="{1D8C1C81-D882-4B66-AC3D-24F95FCE987B}" WorkUnitID="{33379CD4-6281-43CB-8470-4C536BCB1C3D}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Char_Mov_Footstep_Right" ID="{C0633CFD-55CC-4FE5-8E6E-5AA51D1BCCF8}" WorkUnitID="{33379CD4-6281-43CB-8470-4C536BCB1C3D}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
